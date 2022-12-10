@@ -1,0 +1,1 @@
+In this project shown cluster Minikube in Virtualbox with Jenkins and k8s slaves.
