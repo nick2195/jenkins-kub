@@ -51,5 +51,16 @@ kubernetes-dashboard-66c887f759-x4cxz        1/1     Running   0          17m
 and paste a token
 ![image](https://user-images.githubusercontent.com/44971394/206894237-5bb9f5ac-2aaf-4d4c-8aef-65bcbd3f8b80.png)
 
+### First pipeline on jenkins cluster, using pod template(not only declarative pipeline)
 
+**k8s changes when pipeline starts**
+![image](https://user-images.githubusercontent.com/44971394/206902662-d9dce21f-12ad-41c5-b416-3363f494d612.png)
+![image](https://user-images.githubusercontent.com/44971394/206902684-8ff24a59-4960-456c-97f3-88e6ef0f1148.png)
+![image](https://user-images.githubusercontent.com/44971394/206902697-08588a9c-03fb-42ba-88f0-2bbce0d1b89c.png)
 
+**screens from jenkins
+![image](https://user-images.githubusercontent.com/44971394/206902983-8ac05d0c-cd6d-4ac8-a6fc-c06ca975f208.png)
+Output in a separate file "first pipe successful output.md"
+
+### Second pipeline on jenkins cluster, using declarative pipeline
+Output in a separate file "second pipe successful output.md"
