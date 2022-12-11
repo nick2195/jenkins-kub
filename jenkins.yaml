@@ -38,3 +38,15 @@ roleRef:
   kind: Role
   name: jenkins-role
   apiGroup: rbac.authorization.k8s.io
+  ---
+#Secrets added
+
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/service-account-token
+metadata:
+  name: jenkins-token
+  namespace: jenkins
+  annotations:
+    kubernetes.io/service-account.name: "jenkins-sa"
+    namespace: jenkins
